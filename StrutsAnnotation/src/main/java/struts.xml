@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+	"https://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+ <!-- using annotations
+ 
+	<package name="test" extends="struts-default">
+		<action name="calculate1" class="com.testeApp.actions.CalculationAction"
+			method="calculateEMI">
+			<result name="success">/success.jsp</result>
+		</action>
+		<action name="calculate2" class="com.testeApp.actions.CalculationAction"
+			method="calculateEMC">
+			<result name="success">/success.jsp</result>
+		</action>
+		<action name="calculate3" class="com.testeApp.actions.CalculationAction"
+			method="calculateEMD">
+			<result name="success">/success.jsp</result>
+		</action>
+	</package>
+	
+	<package name="product" extends="struts-default"
+		namespace="/product">
+		<action name="getDetails" class="com.testeApp.actions.product.ProductDetailsAction">
+			<result name="success">/namespace.jsp</result>
+		</action>
+	</package>
+	
+	<package name="user" extends="struts-default" namespace="/user">
+		<action name="getDetails" class="com.testeApp.actions.user.UserDetailsAction">
+			<result name="success">/namespace.jsp</result>
+		</action>
+	</package>
+-->
+</struts>
+
